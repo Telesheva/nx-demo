@@ -1,0 +1,33 @@
+:host {
+  width: 100%;
+}
+
+.notification {
+  padding: 8px 0;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notification--success {
+  background: #6dd29b;
+  color: #0f703b;
+}
+
+.notification--error {
+  background: #ffafaf;
+  color: #a10914;
+}
+
+core-icon {
+  margin-right: 10px;
+}
+
+:host::ng-deep {
+  .btn-link {
+    margin-left: 15px;
+  }
+}

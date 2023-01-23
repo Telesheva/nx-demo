@@ -1,0 +1,18 @@
+.btn-link {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    color: #1087ff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    /* stylelint-disable declaration-no-important */
+    text-decoration: none !important;
+    white-space: nowrap;
+    transition: color 0.3s;
+    cursor: pointer;
+  
+    &:hover {
+      color: #72b9ff;
+    }
+  }
