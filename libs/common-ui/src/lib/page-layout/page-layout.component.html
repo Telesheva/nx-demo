@@ -1,0 +1,21 @@
+<div class="project">
+  <div class="project__content">
+    <main class="main">
+      <div class="page-header">
+        <div class="page-header__info">
+          <h1 class="page-header__title">
+            {{ pageHeading }}
+          </h1>
+          <ng-container [ngTemplateOutlet]="pageMainActionTemplate"></ng-container>
+        </div>
+        <ul class="settings-list">
+          <ng-container [ngTemplateOutlet]="pageActionsTemplate"></ng-container>
+        </ul>
+      </div>
+      
+      <div class="section">
+        <ng-container [ngTemplateOutlet]="pageContentTemplate"></ng-container>
+      </div>
+    </main>
+  </div>
+</div>
